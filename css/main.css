@@ -1,0 +1,161 @@
+/*
+Project: Personal Website
+Description: This is our personal site project, it will be posted on GitHub using gh-pages
+Color Theme:
+  -Primary Color:#E96D1F Orange
+  -Seconary Color:#F0AB00 Gold
+  -Complement Color:#F3CF45 Yellow
+  -Base Color:#0065BD Blue
+  -Base Color 2:#AA272F Burgundy
+*/
+/*===== Global Styles   ======*/
+
+body, html{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+   list-style-type: none;
+   /*remove bullet points*/
+}
+a{
+  text-decoration: none;
+  /*removes hyperlink*/
+  color:#0065BD;
+}
+
+.container{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+h1, h2{
+  margin: 0px;
+}
+
+.border{
+  border-bottom: 2px solid :#fff;
+  padding: 20px 0px;
+}
+
+/*===== Header Styles =====*/
+header{
+  height: 100px;
+  background-color: #E96D1F;
+  color:#fff;
+}
+
+.header a{
+  color:#FFF;
+}
+
+.logo{
+  width: 30%;
+  float: left;
+  margin-top: 30px;
+}
+
+.logo h1{
+  text-align: center;
+  margin:0;
+}
+.menu{
+  width: 30%;
+  float: left;
+  margin-top:25px;
+}
+.menu li{
+  float:left;
+}
+.menu li:after{
+  padding-right:7px;
+  content:" | ";
+}
+
+.sm-icons{
+  width:30%;
+  float: right;
+  margin-top:40px;
+}
+.sm-icons a{
+  padding-right:7px;
+}
+.sm-icons i{
+   font-size: 2em;
+}
+/*=====  Banner Styles  =====*/
+
+#banner{
+  height:300px;
+  background:url("../img/candlesincense.jpg")
+  center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #0065BD;
+}
+.banner-text{
+  padding: 0px 0;
+}
+#banner h1{
+    text-align: center;
+    padding: 100px 0px;
+    font-size: 5em;
+}
+
+
+/*===== Begin Skills Section ======*/
+#skills{
+  background-color: #F0AB00;
+  height: 475px;
+}
+#skills .box{
+  width:  25%;
+  height: 100%;
+  border: 2px solid #fff;
+  display:inline-block;
+  padding:15px 20px;
+  margin:30px 2%;
+  color: #fff;
+  display: inline-block;
+  float: left;
+}
+.skills-icon{
+  height:50px;
+  width:50px;
+  margin:0 auto;
+  border:2px solid #fff;
+  border-radius: 100%;
+  background-color: #fff;
+
+}
+
+.skills-icon i{
+     font-size: 2em;
+     color: ##AA272F;
+     margin:9px 11px
+     /*Use Chrome Inspect*/
+}
+
+.skills-info h2{
+   text-align: center;
+   margin-top: 10px;
+}
+
+.skills-info p{
+  text-align: justify;
+  line-height: 22px;
+
+}
+/*====  Begin About Section  ====*/
+#about{
+    height:400px;
+    background-color:#F3CF45;
+}
+.img-box{
+
+
+}
+.text-box{
+
+
+}

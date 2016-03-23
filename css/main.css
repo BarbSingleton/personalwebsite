@@ -6,13 +6,14 @@ Color Theme:
   -Seconary Color:#F0AB00 Gold
   -Complement Color:#F3CF45 Yellow
   -Base Color:#0065BD Blue
-  -Base Color 2:#AA272F Burgundy
+  -Base Color 2: #AA272F Burgundy
 */
 /*===== Global Styles   ======*/
 
 body, html{
   margin: 0;
   padding: 0;
+  font-family: avantegarde, Arial, sans-serif;
 }
 
 ul{
@@ -31,7 +32,8 @@ a{
 }
 h1, h2{
   margin: 0px;
-}
+  /*-- Removes built in margin around h tags -->*/
+  }
 
 .border{
   border-bottom: 2px solid :#fff;
@@ -42,22 +44,21 @@ h1, h2{
 header{
   height: 100px;
   background-color: #E96D1F;
-  color:#fff;
+  color:#AA272F;
 }
 
 .header a{
-  color:#FFF;
+  color:#AA272F;
 }
-
 .logo{
   width: 30%;
   float: left;
   margin-top: 30px;
 }
-
 .logo h1{
   text-align: center;
   margin:0;
+  color: #AA272F;
 }
 .menu{
   width: 30%;
@@ -66,12 +67,12 @@ header{
 }
 .menu li{
   float:left;
+  font-size: 1.5em;
 }
 .menu li:after{
   padding-right:7px;
   content:" | ";
 }
-
 .sm-icons{
   width:30%;
   float: right;
@@ -87,11 +88,10 @@ header{
 
 #banner{
   height:300px;
-  background:url("../img/candlesincense.jpg")
-  center;
+  background:url("../img/candlesincense.jpg");
   background-size: cover;
   background-attachment: fixed;
-  color: #0065BD;
+  color:#F0AB00;
 }
 .banner-text{
   padding: 0px 0;
@@ -101,21 +101,19 @@ header{
     padding: 100px 0px;
     font-size: 5em;
 }
-
-
 /*===== Begin Skills Section ======*/
 #skills{
   background-color: #F0AB00;
-  height: 475px;
+  height: 400px;
 }
 #skills .box{
   width:  25%;
   height: 100%;
-  border: 2px solid #fff;
+  border: 2px solid #0065BD;
   display:inline-block;
   padding:15px 20px;
-  margin:30px 2%;
-  color: #fff;
+  margin:30px 2% 10px 2%;
+  color: #AA272F ;
   display: inline-block;
   float: left;
 }
@@ -123,27 +121,25 @@ header{
   height:50px;
   width:50px;
   margin:0 auto;
-  border:2px solid #fff;
+  border:2px solid #AA272F;
   border-radius: 100%;
-  background-color: #fff;
-
+  background-color:#F3CF45;
 }
 
 .skills-icon i{
      font-size: 2em;
      color: ##AA272F;
-     margin:9px 11px
+     margin:9px 11px;
      /*Use Chrome Inspect*/
 }
-
 .skills-info h2{
    text-align: center;
-   margin-top: 10px;
+   margin-top: 15px;
 }
 
 .skills-info p{
   text-align: justify;
-  line-height: 22px;
+  line-height: 25px;
 
 }
 /*====  Begin About Section  ====*/
@@ -152,7 +148,7 @@ header{
     background-color:#F3CF45;
 }
 .img-box{
-
+     background:url("../img/barbpurpleshirt.jpg");
 
 }
 .text-box{

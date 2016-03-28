@@ -1,0 +1,38 @@
+/*
+About Page Styles
+Color Theme:
+  -Primary Color:#E96D1F Orange
+  -Seconary Color:#F0AB00 Gold
+  -Complement Color:#F3CF45 Yellow
+  -Base Color:#0065BD Blue
+  -Base Color 2: #AA272F Burgundy
+*/
+/*--==== Main Styles on main.css ====--*/
+/*==== Header ====*/
+#about-banner{
+  height:300px;
+  background:url("../img/candlesincense.jpg");
+  background-size: cover;
+  background-attachment:fixed;
+}
+#about-banner h1{
+    text-align: center;
+    padding: 100px 0px;
+    font-size: 4em;
+    color:#F0AB00;
+}
+
+/*==== Video Section ====*/
+
+#video{
+      width: 100%;
+      height: 450px;
+
+}
+.video-container{
+       height: 80%;
+       width: 30%;
+       margin: 10px;
+       float:left;
+
+}

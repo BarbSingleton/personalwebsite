@@ -8,6 +8,8 @@ Color Theme:
   -Base Color:#0065BD Blue
   -Base Color 2: #AA272F Burgundy
 */
+@import url("about.css");
+@import url("contact.css");
 /*===== Global Styles   ======*/
 
 body, html{
@@ -36,7 +38,7 @@ h1, h2{
   }
 
 .border{
-  border-bottom: 2px solid :#fff;
+  border-bottom: 2px solid #fff;
   padding: 20px 0px;
 }
 
@@ -91,7 +93,7 @@ header{
   background:url("../img/candlesincense.jpg");
   background-size: cover;
   background-attachment:;
-  color:#F0AB00;
+
 }
 .banner-text{
   padding: 0px 0;
@@ -100,28 +102,27 @@ header{
     text-align: center;
     padding: 100px 0px;
     font-size: 5em;
+    color:#F0AB00;
 }
 /*===== Begin Skills Section ======*/
 #skills{
   background-color: #F0AB00;
-  height: 400px;
+  height: 550px;
 }
 #skills .box{
   width:  25%;
   height: 100%;
-  border: 2px solid #0065BD;
-  display:inline-block;
+  border: 3px solid #0065BD;
+  display: inline-block;
   padding:15px 20px;
   margin:30px 2% 10px 2%;
   color: #AA272F ;
-  display: inline-block;
-  float: left;
 }
 .skills-icon{
   height:50px;
   width:50px;
   margin:0 auto;
-  border:2px solid #AA272F;
+  border:3px solid #AA272F;
   border-radius: 100%;
   background-color:#F3CF45;
 }
@@ -145,22 +146,96 @@ header{
   color: #AA272F;
 
 }
-/*====  Begin About Section  ====*/
+/*==== Home Page - About Section  ====*/
+
 #about{
-    height:400px;
+    height: 440px;
+        background-color: #F3CF45;
+}
+#about h2{
+  text-align: center;
+}
+.pic{
+    width:25%;
+    height:100%;
+    float: left;
+    margin-top: 75px;
+}
+.pic img{
+    height: auto;
     width:100%;
-    background-color:#F3CF45;
-    padding: 45px 0px 75px 0px;
+    border-radius: 50%;
 }
-#about .img-box{
-     background:url("../img/barbpurpleshirt.jpg");
-     border-radius: 100%;
+.bio{
+    height: 100%;
+    width: 60%;
+    float: left;
+    margin: 50px 0px 0px 75px;
+    border: 1px solid #F3CF45;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #AA272F ;
 }
-.text-box{
-  width: 60%;
-  border: 2px dashed; #AA272F;
-  float:left;
-  height: 80%;
-  display:inline-block;
+.site-box{
+  width:  47%;
+  height: 10%;
+  float: left;
+  text-align: center;
+}
+.voterreg h3{
+  color:#0065BD;
+}
+#about h1{
+    text-align: center;
+    margin: 0;
+}
+#about p{
+    text-align: justify;
+}
+/*===== Start Footer Section =====*/
+footer{
+    height: 100px;
+    background-color:#E96D1F;
+    color: #AA272F;
+    margin: 0;
+    padding: 40px 20px;
+    clear: both;
+}
+.copyright{
+    text-align: center;
+}
+footer p{
+    margin: 0;
+}
+.soc-icons{
+    width: 400px;
+    margin: 20px auto;
 
 }
+footer .icon{
+    display: inline-block;
+    margin-right: 5px;
+    background-color:#0065BD;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.icon a{
+    color: #F3CF45;
+}
+.icon i{
+    font-size: 2em;
+    padding-top: 9px;
+}
+/*==== About Page ====*/
+
+
+
+
+
+
+
+
+
+/*===== Contact Page =====*/

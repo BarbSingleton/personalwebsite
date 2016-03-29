@@ -38,7 +38,7 @@ h1, h2{
   }
 
 .border{
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #AA272F;
   padding: 20px 0px;
 }
 
@@ -89,10 +89,10 @@ header{
 /*=====  Banner Styles  =====*/
 
 #banner{
-  height:300px;
+  height:350px;
   background:url("../img/candlesincense.jpg");
   background-size: cover;
-  background-attachment:;
+  background-attachment:fixed;
 
 }
 .banner-text{
@@ -107,7 +107,7 @@ header{
 /*===== Begin Skills Section ======*/
 #skills{
   background-color: #F0AB00;
-  height: 550px;
+  height: 475px;
 }
 #skills .box{
   width:  25%;
@@ -155,13 +155,13 @@ header{
 #about h2{
   text-align: center;
 }
-.pic{
+.pic-box{
     width:25%;
-    height:100%;
+    height:auto;
     float: left;
-    margin-top: 75px;
+    margin-top: 43px;
 }
-.pic img{
+.pic-box img{
     height: auto;
     width:100%;
     border-radius: 50%;

@@ -58,6 +58,13 @@ Color Theme:
   margin: 10px 0;
   background-color: #F3CF45;
 }
+.contact-content ::-webkit-input-placeholder{
+   color: #0065BD;
+   font-size: 1.1em;
+}
+.contact-content input{
+  font-size: 1em;
+}
 
 #contact textarea{
   width: 100%;
